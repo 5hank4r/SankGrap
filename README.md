@@ -14,11 +14,14 @@ SankGrab is a lightweight and efficient CLI tool for extracting subdomains from 
 - Verbose logging for debugging.
 
 ## Installation
-
-### Clone the Repository
+#### Clone the Repository
+First, clone the repository from GitHub:
 ```bash
 git clone https://github.com/yourusername/SankGrab.git
 cd SankGrab
+go build -o sankgrab main.go
+./sankgrab -h
+
 ````
 
 ### Flag	Description	Default
