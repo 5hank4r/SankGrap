@@ -22,13 +22,14 @@ cd SankGrab
 ````
 
 ### Flag	Description	Default
+```
 -d	Target domain to filter subdomains (e.g., example.com).	Required
 -f	Input file containing the list of URLs to process.	Required
 -o	Output file to save extracted subdomains. If not specified, prints to stdout.	None
 -w	Number of concurrent workers for processing URLs.	10
 -m	Extraction mode: rb (body), rh (header), or both.	both
 -v	Enable verbose logging.	false
-
+```
 
 
 #### Extract from Both Headers and Body (Default)
